@@ -7,7 +7,7 @@
 
 ## 编译
 
-> 需要安装[git](http://msysgit.github.io/)与[mercurial](http://mercurial.selenic.com/downloads)
+> 需要安装[git](http://msysgit.github.io/)或[mercurial](http://mercurial.selenic.com/downloads)
 
 
 	./make.bat
