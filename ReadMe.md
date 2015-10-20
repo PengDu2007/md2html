@@ -18,5 +18,3 @@
 > 没有环境编译的可以直接下载exe文件使用
 
 	./md2html.exe -f 文件名
-
-[____都非拉得](http://weibo.com/dudu1225)
