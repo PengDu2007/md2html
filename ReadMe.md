@@ -19,6 +19,4 @@
 
 	./md2html.exe -f 文件名
 
-## 作者
-
 [____都非拉得](http://weibo.com/dudu1225)
