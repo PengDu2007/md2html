@@ -27,7 +27,7 @@ func main(){
 	flag.Parse()
 
 	if filename == "" {
-		fmt.Printf("请输入文件路径")
+		flag.Usage()
 		return
 	}
 
