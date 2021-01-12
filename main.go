@@ -1,7 +1,14 @@
 package main
 
-import "md2html/cmd"
+import (
+    "fmt"
 
-func main () {
-	cmd.RootCmd.Execute()
+    "md2html/cmd"
+)
+
+func main() {
+    err := cmd.RootCmd.Execute()
+    if err != nil {
+        fmt.Printf("err: %s\n", err)
+    }
 }

@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"fmt"
+
 	"github.com/spf13/cobra"
 )
 
@@ -13,7 +14,7 @@ var (
 
 var RootCmd = &cobra.Command{
 	Use:   "md2html",
-	Short: "Md2html is a tool for converting markdown to html",
+	Short: "Md2html is a tool that convert markdown to html.",
 	Version: version,
 	Run: func(cmd *cobra.Command, args []string) {
 		if len(file) == 0 {
